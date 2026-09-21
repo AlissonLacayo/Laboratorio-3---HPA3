@@ -1,5 +1,5 @@
 # Laboratorio # 3
-Fecha: 31/08/2026
+Fecha: 14/09/2026
 
 ## Contenido del Repositorio
 Este laboratorio abarca el diseño e implementación de aplicaciones en C# (.NET) aplicando principios de Programación Orientada a Objetos (POO), arquitectura de navegación MDI y validaciones de datos tanto en entorno de consola como en formularios de escritorio Windows Forms.
@@ -7,7 +7,7 @@ Este laboratorio abarca el diseño e implementación de aplicaciones en C# (.NET
 ## Tecnologías Utilizadas
 * **Lenguaje / Framework:** C# (.NET Framework / .NET Core)
 * **Tipo de Aplicación:** Windows Forms (Escritorio) y Aplicación de Consola
-* **Herramientas:** Visual Studio, Visual Studio Code, Git, GitHub
+* **Herramientas:** Visual Studio Insiders, GitHub
 
 ## Capturas de Pantalla y Problemas
 
