@@ -50,10 +50,15 @@ git clone [https://github.com/tu-usuario/laboratorio-3-csharp.git](https://githu
 
 ## Autor
 **​Nombre:** Alisson Lacayo  
+
 **​Asignatura:** Herramientas de la Programación Aplicada III (.NET)
+
 **​Grupo:** 1IL133
+
 **​Carrera:** Licenciatura en Ingeniería en Sistemas y Computación 
+
 ​**Institución:** Universidad Tecnológica de Panamá (UTP)  
+
 **​Fecha de Realización:** 14/09/2026  
 
 ## Referencias 
