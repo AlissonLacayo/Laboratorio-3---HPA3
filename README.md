@@ -7,62 +7,55 @@ Este laboratorio abarca el diseño e implementación de aplicaciones en C# (.NET
 ## Tecnologías Utilizadas
 * **Lenguaje / Framework:** C# (.NET Framework / .NET Core)
 * **Tipo de Aplicación:** Windows Forms (Escritorio) y Aplicación de Consola
-* **Herramientas:** Visual Studio Insiders, GitHub
+* **Herramientas:** Visual Studio, GitHub
 
-## Capturas de Pantalla y Problemas
+## Capturas de Pantalla y Ejercicios
 
 ### Ejercicio 1: Registro de Colaboradores (DataGridView)
-Se implementó un formulario de captura de datos con validaciones en tiempo real mediante `ErrorProvider` para asegurar la integridad de los campos obligatorios. Se integró una clase utilitaria con expresiones regulares (`Regex`) para validar el formato de correo electrónico y un control `DateTimePicker` para la fecha de nacimiento, almacenando los datos en memoria y mostrándolos dinámicamente en un `DataGridView`.
+Se implementó un formulario de captura de datos con validaciones en tiempo real mediante `ErrorProvider` para asegurar la integridad de los campos obligatorios. Se integró una clase utilitaria con expresiones regulares (`Regex`) para validar el formato de correo electrónico y un control `DateTimePicker` para la fecha de nacimiento.
 
-* **Estado inicial del formulario:**
-  ![Formulario en estado inicial](./imagenes%20lab%203/formulario-estado-inicial.png)
+* **Estado inicial del formulario:**<br>
+  <img src="./imagenes%20lab%203/formulario-estado-inicial.png" alt="Estado inicial del formulario" width="450">
 
-* **Registro exitoso de un colaborador:**
-  ![Datos de empleado guardados](./imagenes%20lab%203/datos-empleado-guardados.png)
+* **Registro exitoso de un colaborador:**<br>
+  <img src="./imagenes%20lab%203/datos-empleado-guardados.png" alt="Datos de empleado guardados" width="450">
 
-* **Validación de errores (ej. campo salario):**
-  ![Validación de error en salario](./imagenes%20lab%203/validacion-error-salario.png)
+* **Validación de errores (ej. campo salario):**<br>
+  <img src="./imagenes%20lab%203/validacion-error-salario.png" alt="Validación de error en salario" width="450">
 
 ---
 
 ### Ejercicio 2: Juego de Craps (Consola)
-Desarrollo de la lógica del juego de azar Craps en consola utilizando la clase `Random` para simular la tirada de dados. Se implementaron enumeraciones (`enum`) para gestionar los estados del juego (Ganó, Perdió, Continúa) y estructuras `switch` para la evaluación del tiro inicial y la definición del "Punto" en tiros subsecuentes.
+Desarrollo de la lógica del juego de azar Craps en consola utilizando la clase `Random` para simular la tirada de dados y enumeraciones (`enum`) para gestionar los estados del juego.
 
-* **Ejecución - Partida Ganada:**
-  ![Partida ganada en Craps](./imagenes%20lab%203/craps-partida-ganada.png)
+* **Ejecución - Partida Ganada:**<br>
+  <img src="./imagenes%20lab%203/craps-partida-ganada.png" alt="Partida ganada en Craps" width="450">
 
-* **Ejecución - Partida Perdida:**
-  ![Partida perdida en Craps](./imagenes%20lab%203/craps-partida-perdida.png)
+* **Ejecución - Partida Perdida:**<br>
+  <img src="./imagenes%20lab%203/craps-partida-perdida.png" alt="Partida perdida en Craps" width="450">
 
 ---
 
 ### Ejercicio 3: Formulario MDI
-Configuración de una arquitectura de Múltiples Documentos (MDI) con un formulario contenedor Padre (`IsMdiContainer = true`) y un menú de navegación mediante el control `ToolStrip`. Se controló la apertura y enfoque de los formularios Hijos asignando la propiedad `MdiParent` y ejecutando el método `BringToFront()` para evitar la duplicación de ventanas.
+Configuración de una arquitectura de Múltiples Documentos (MDI) con un formulario contenedor Padre y un menú de navegación mediante el control `ToolStrip`.
 
-* **Ventanas principal y secundaria en tamaño normal:**
-  ![Ventana principal y secundaria](./imagenes%20lab%203/ventana-principal-y-secundaria.png)
+* **Ventana principal y secundaria en tamaño normal:**<br>
+  <img src="./imagenes%20lab%203/ventana-principal-y-secundaria.png" alt="Ventana principal y secundaria" width="450">
 
-* **Formulario secundario maximizado:**
-  ![Formulario secundario maximizado](./imagenes%20lab%203/form2-maximizado.png)
+* **Formulario secundario maximizado:**<br>
+  <img src="./imagenes%20lab%203/form2-maximizado.png" alt="Formulario secundario maximizado" width="450">
 
-* **Formulario secundario minimizado:**
-  ![Formulario secundario minimizado](./imagenes%20lab%203/form2-minimizado.png)
+* **Formulario secundario minimizado:**<br>
+  <img src="./imagenes%20lab%203/form2-minimizado.png" alt="Formulario secundario minimizado" width="450">
 
 ## Estructura de Carpetas o Directorios
 
 ```plaintext
 laboratorio-3-csharp/
 ├── CasoJuegoCraps/            # Proyecto de Consola: Lógica del juego Craps
-│   ├── Program.cs             # Punto de entrada de la aplicación
-│   └── Craps.cs               # Clase de negocio, enums y tiradas
 ├── EjemploGrid/               # Proyecto WinForms: Formulario y DataGridView
-│   ├── Form1.cs               # Lógica de interfaz y eventos
-│   ├── Persona.cs             # Clase modelo de entidad
-│   └── Utilidades.cs          # Clase estática con validaciones Regex
-├── FormularioMDI/             # Proyecto WinForms: Ventana principal MDI
-│   ├── Form1.cs               # Contenedor Padre y ToolStrip
-│   └── Form2.cs               # Formulario Hijo
-├── imagenes lab 3/            # Carpeta con las capturas de pantalla del proyecto
+├── FormularioMDI/             # Ventana principal MDI
+├── imagenes lab 3/            # Carpeta con las capturas de pantalla
 │   ├── formulario-estado-inicial.png
 │   ├── datos-empleado-guardados.png
 │   ├── validacion-error-salario.png
