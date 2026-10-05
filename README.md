@@ -72,7 +72,6 @@ laboratorio-3-csharp/
 │   ├── form2-maximizado.png
 │   └── form2-minimizado.png
 └── README.md                  # Documentación del proyecto
-```
 ## Instrucciones de Ejecución / Uso
 **1. Clonar el repositorio**: 
 ```bash
